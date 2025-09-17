@@ -6,7 +6,7 @@ public class LastOccurrenceOfAnElement {
         System.out.println("Last occurrence is at index: " + getLastOccurrence(nums,4));
     }
 
-    static int getLastOccurrence(int[] nums , int target){
+    public static int getLastOccurrence(int[] nums , int target){
         int start = 0;
         int end = nums.length - 1;
         int result = -1;

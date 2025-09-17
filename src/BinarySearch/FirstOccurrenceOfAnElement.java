@@ -6,7 +6,7 @@ public class FirstOccurrenceOfAnElement {
         System.out.println("First occurrence is at index: " + getFirstOccurrence(nums,5));
     }
 
-    static int getFirstOccurrence(int[] nums, int target){
+    public static int getFirstOccurrence(int[] nums, int target){
         int start = 0;
         int end = nums.length - 1;
         int result = -1;
